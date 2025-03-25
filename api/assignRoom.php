@@ -1,6 +1,6 @@
 <?php
 require "db_connect.php";
-require "middleware.php";  // 确保用户已登录
+require "middleware.php"; 
 header("Content-Type: application/json");
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
